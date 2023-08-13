@@ -1,0 +1,99 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    overflow: hidden;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(to bottom right, #85FFBD, #FFFB7D);
+    z-index: -1;
+  }
+  
+  .container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    color: #333333; /* Dark font color */
+  }
+  
+  .title {
+    font-size: 36px;
+    margin-bottom: 20px;
+  }
+  
+  .subtitle {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+  
+  .calendar {
+    display: inline-block;
+    vertical-align: middle;
+    font-size: 20px;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+  
+  .tasks ul {
+    list-style: none;
+    padding: 0;
+    display: table;
+    width: 100%;
+    border-collapse: collapse;
+    border:1px solid #333333;
+  }
+  
+  .tasks li {
+    margin-bottom: 10px;
+    display: table-row;
+    text-align: center;
+    
+
+   
+  }
+  
+  .tasks h3, .tasks p, .tasks button {
+    display: table-cell;
+    padding: 6px;
+    text-align: left;
+    border:1px solid #333333;
+
+  }
+
+  .tasks th {
+    display: table-cell;
+    padding: 6px;
+    text-align: center; 
+    font-weight: bold;
+    background-color: #4C7C3F;
+    color: #fff;
+    border: 1px solid #333333; 
+  }
+
+  .tasks td {
+    display: table-cell;
+    padding: 6px;
+    text-align: center; /* Center align the data */
+    border: 1px solid #333333; /* Add border */
+  }
+  
+  
+  .tasks button {
+    background-color: #4C7C3F;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 15px; /* Adjust padding as needed */
+    cursor: pointer;
+  }
+  
+  .buttons {
+    margin-top: 10px;
+  }
+  

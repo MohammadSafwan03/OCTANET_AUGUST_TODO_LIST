@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Todo List</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="background"></div>
+  <div class="container">
+    <h1 class="title">To-Do's List</h1>
+    <p class="subtitle">Welcome! Complete your pending tasks.</p>
+    
+    <div class="tasks">
+      <table id="todo-list">
+        <thead>
+          <tr>
+            <th class="table-header" colspan="4">All Tasks</th>
+          </tr>
+          <tr>
+            <th>Title</th>
+            <th>Description</th>
+            <th>Date</th>
+            <th>Actions</th>
+          </tr>
+        </thead>
+        <tbody>
+          <!-- Tasks will be added dynamically here -->
+        </tbody>
+      </table>
+      <input type="text" id="new-task-title" placeholder="Enter a new task title">
+      <input type="text" id="new-task-description" placeholder="Enter a task description">
+      <input type="date" id="new-task-date">
+      <button id="add-task">Add Task</button>
+    </div>
+    <div class="buttons">
+      <button id="show-all">Show All</button>
+      <button id="show-pending">Show Pending</button>
+      <button id="show-completed">Show Completed</button>
+      <button id="show-upcoming">Show Upcoming</button>
+      <button id="hide-all">Hide All</button>
+    </div>
+  </div>
+  
+  <script src="main.js"></script>
+</body>
+</html>
